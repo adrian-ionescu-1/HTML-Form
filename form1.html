@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Exercitiul 1</title>
+        <link rel="stylesheet" href="./form1style.css">
+    </head>
+
+    <body>
+        <form action="/my-submit-url" method="post" target="_blank">
+            <div class="container">
+                <div> 
+                    <label for="name">Name: </label>
+                    <input type="text" name="name" id="name"/>
+                </div>
+            
+                <div>
+                    <label for="surname">Surname: </label>
+                    <input type="text" name="surname" id="surname"/>
+                </div>
+
+                <div>
+                    <label for = "region" id="countryLabel"> Country: </label>
+                    <select id="region">
+                        <option>Poland</option>
+                        <option>Romania</option>
+                        <option>France</option>
+                    </select>
+                </div>
+                
+                <div class="submit">
+                    <button type="submit">Submit</button>
+                </div>
+            </div>
+        </form>
+    </body>
+</html>

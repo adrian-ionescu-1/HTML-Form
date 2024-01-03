@@ -1,0 +1,50 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+div.container {
+    background-color: #f0f0f0;
+    margin: 20px;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.container label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.container input, .container select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: 'Verdana', sans-serif;
+}
+
+#countryLabel {
+    font-family: 'Times New Roman', serif;
+}
+
+.submit {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.submit button {
+    background-color: #4CAF50;
+    color: white;
+    width: 100%;
+    padding: 14px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    font-family: 'Tahoma', sans-serif;
+}
+
+.submit button:hover {
+    background-color: #45a049;
+}
